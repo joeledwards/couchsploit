@@ -1,0 +1,17 @@
+{
+  "name": "couchsploit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sploit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bluebird": "^3.5.1",
+    "chalk": "^2.3.0",
+    "durations": "^3.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+version: "3"
+services:
+  couch:
+    image: couchdb:1.7.1
+  node:
+    image: node:8.9.1
+    command: "node -e 'setInterval(() => {console.log(`[$${new Date().toISOString()}]`)}, 1000)'"
+    volumes:
+      - ./:/opt
